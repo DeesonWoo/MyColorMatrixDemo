@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.iv_model1);
+        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.image);
         iv_photo = (ImageView) findViewById(R.id.iv_photo);
         matrixLayout = (GridLayout) findViewById(R.id.matrix_layout);
         Button btn_change = (Button) findViewById(R.id.btn_change);
